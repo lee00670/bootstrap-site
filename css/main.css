@@ -1,0 +1,78 @@
+.jumbotron {
+    background-image: linear-gradient(rgba(229,235,248,0.7),rgba(229,235,248,0.7)), url(../img/about-earth.jpg);
+    background-position: 0% 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-shadow: gray 0.07em 0.07em 0.07em;
+}
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.form-signin {
+  max-width: 600px;
+  padding: 10px;
+}
+
+
+/*Analogous Color Scheme*/
+.navbar{
+    background-color: rgba(106,107,107,1);
+}
+.navbar-nav .nav-link {
+    color: rgba(229,235,248,0.5);
+}
+.navbar-brand{
+    color: rgba(128,200,225,1);
+    font-size: 1.3rem;
+    text-shadow: black 0.03em 0.03em 0.03em;
+}
+.navbar-brand:hover{
+    color: rgba(128,200,225,1);
+    text-shadow: gray 0.03em 0.03em 0.03em;
+}
+.navbar-nav .active > .nav-link{
+    color: rgba(255,255,255,1);
+    text-shadow: black 0.03em 0.03em 0.03em;
+}
+.navbar-nav .active > .nav-link:hover, .navbar-nav .nav-link:hover{ 
+    color: rgba(229,235,248,1);
+}
+.contact-map{
+   border:3px solid rgba(106,107,107,1);
+}
+.btn{
+    color: #fff;
+    background-color:  rgba(106,107,107,0.7);
+    border-color:  rgba(106,107,107,0.1);
+}
+.btn:hover{
+    background-color:  rgba(128,200,225,1);
+    border-color:  rgba(128,200,225,0.5);
+}
+.navbar-toggler-icon{
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(229,235,248,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+    border-color: rgba(255,255,255,.1);
+}
+.navbar-toggler:focus {
+    border-color: rgba(128,200,225,0.5);
+    outline: 1px auto rgba(128,200,225,0.3);
+}
+q:after, q:before{
+    content: none;
+}
+
+
+/* footer icon */
+.fa{
+    color:  rgba(106,107,107,1);
+}
+footer .fa{
+   font-size: 32px;
+}
+footer .fa:hover{
+    color: rgba(128,200,225,1);
+}

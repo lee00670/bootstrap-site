@@ -1,9 +1,7 @@
 <!--All contents used belong to www.conservation.org -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="shortcut icon" href=""/>
-   
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -64,7 +62,12 @@
         <div class="col">
          <label class="col-form-label" for="name">Name</label>
          <div class="input-group">
-             <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <div class="input-group-prepend">
+                 <div class="input-group-text">
+                     <i class="fa fa-user" aria-hidden="true"></i>
+                 </div>
+             </div>
+            
              <input type="text" class="form-control" id="name" placeholder="Your name" required>
         </div>
         </div>                      
@@ -74,7 +77,13 @@
         <div class="col">
          <label class="col-form-label" for="email">Email address</label>
          <div class="input-group">
-             <span class="input-group-addon">@</span>
+             <div class="input-group-prepend">
+                 <div class="input-group-text">
+                     <i class="fa fa-envelope" aria-hidden="true"></i>
+                 </div>
+             </div>
+             
+             
              <input type="email" class="form-control" id="email" placeholder="Your email" required>
          </div>
         </div>
@@ -83,8 +92,17 @@
       <div class="form-group">
           <label for="comment">Comment</label>
           <div class="input-group">
-             <span class="input-group-addon"><i class="fa fa-commenting" aria-hidden="true"></i></span>
-             <textarea class="form-control" rows="5" id="comment" placeholder="Comment" required></textarea>
+<!--
+              <div class="input-group-prepend">
+                  <div class="input-group-text" aria-label="commenttext">
+                  <i class="fa fa-commenting" ></i>
+                  
+                  </div>
+                  
+              </div>
+-->
+              <textarea class="form-control" rows="3" id="comment" placeholder="Comment" required aria-label="commenttext"></textarea>
+             
           </div>
       </div>
        
@@ -98,7 +116,7 @@
    <hr>
       <div class="row align-items-center justify-content-center">
         <div class="col-md-6 text-center">
-          <p>&copy;2017 Jieun Lee. &nbsp No Rights Reserved.</p>          
+          <p>&copy;2017 Jieun Lee. &nbsp; No Rights Reserved.</p>          
         </div>
         <div class="col-md-6 text-center">Follow Us
             <div class="row">
@@ -119,6 +137,5 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>   
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    
 </body>
 </html>
